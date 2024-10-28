@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(9, 4%) 40% 12% 12%;
+    padding: 10px;
+}
+header p{
+    margin-left: 35px;
+}
+header img{
+    width: 120px;
+    margin-top: -20px;
+}
+.orange-p{
+    color: rgb(255, 111, 0);
+}
+.blue-p{
+    color: blue;
+}
+.header2{
+    display: grid;
+    grid-template-columns: repeat(4, 5%);
+    padding: 15px;
+}
+.orange-p2{
+    color: rgb(255, 111, 0);
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 img{
+    width: 1100px;
+}
+.main1{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main1-p2{
+    color: rgb(70, 70, 70);
+}
+.main1-blue-p{
+    color: blue;
+}
+.img2{
+    display: grid;
+    grid-template-columns: 45% 50%;
+}
+.right{
+    width: 800px;
+    height: 800px;
+    background-color: rgb(245, 245, 164);
+}
+.right-img{
+    width: 700px;
+    padding: 120px;
+    margin-top: 50px;
+}
+.left-img{
+    width: 500px;
+}
+.main2{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main2 p{
+    color: rgb(70, 70, 70);
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3 img{
+    width: 500px;
+}
+.main3{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main3 p{
+    color: rgb(70, 70, 70);
+}
+.img4{
+    color: rgb(177, 255, 189);
+}
+.first{
+    margin-left: 600px;
+}
+.left-img4{
+    display: grid;
+    grid-template-rows: 45% 50%;
+    gap: 5rem;
+    background-color: rgb(177, 255, 189);
+    width: 700px;
+    margin-top: -550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-img4 img{
+    width: 250px;
+}
+.main4{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main4 p{
+    color: rgb(70, 70, 70);
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img5 img{
+    width: 70rem;
+}
+.main5{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main5 p{
+    color: rgb(70, 70, 70);
+}
+.img6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(235, 194, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center6{
+    width: 800px;
+    height: 800px;
+}
+.right-img6{
+    width: 700px;
+    padding: 120px;
+    margin-top: 50px;
+}
+.left-img6{
+    width: 500px;
+}
+.main6{
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.main6 p{
+    color: rgb(70, 70, 70);
+}
+.img7 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+    background-color: rgb(164, 189, 255);
+    width: 950px;
+    height: 330px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.img7 img {
+    width: 100%;
+    max-width: 500px;
+}
+.img7-text {
+    display: grid;
+    place-content: center;
+}
+
+.img7-blue-h4{
+    color: blue;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 20px;
+}
+.three .button1{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: rgb(224, 224, 224);
+}
+.three .button2{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(224, 224, 224);
+}
+.two img{
+    width: 50px;
+}
+.foot2{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 35% 10%;
+    padding: 40px 0px 40px 0px;
+    padding: 20px;
+}
+.foot2 img{
+    width: 70px;
+    position: relative;
+    left: 1310px;
+    bottom: 30px;
+}
+.input{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(224, 224, 224);
+}
+.signup{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
